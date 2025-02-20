@@ -105,7 +105,7 @@ export default function PersonalPage() {
 /* 🌟 Social Links Data */
 const socialLinks = [
   {
-    href: "https://www.linkedin.com/in/your-profile",
+    href: "https://www.linkedin.com/in/ram-r-prakash-043b91124",
     text: "LinkedIn",
     icon: <FaLinkedin size={20} />,
     bgColor: "bg-blue-600",
