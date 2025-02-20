@@ -12,7 +12,7 @@ import { motion } from "framer-motion";
 
 export default function PersonalPage() {
   return (
-    <main className="container mx-auto px-6 py-12 flex flex-col items-center">
+    <main className="container mx-auto px-6 py-24 flex flex-col items-center">
       <h1 className="text-4xl font-bold text-gray-900 dark:text-white mb-6">
         🧑‍💻 Personal Details
       </h1>

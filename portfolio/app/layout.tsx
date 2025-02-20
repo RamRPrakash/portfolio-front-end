@@ -15,8 +15,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="bg-white dark:bg-gray-900 text-black dark:text-white">
+        {/* Navbar */}
         <NavBar />
-        {children}
+
+        {/* Prevent content from overlapping navbar */}
+        <div className="pt-20 md:pt-24">{children}</div>
       </body>
     </html>
   );
