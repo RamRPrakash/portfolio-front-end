@@ -4,7 +4,7 @@ import Link from "next/link";
 import { projects } from "@/app/lib/projectsData";
 
 interface ProjectPageProps {
-  params: { slug: string };
+  params: { slug: string } & Record<string, string | string[]>; // ✅ FIXED
 }
 
 export default function ProjectPage({ params }: ProjectPageProps) {
