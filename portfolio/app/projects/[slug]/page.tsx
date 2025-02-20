@@ -7,7 +7,7 @@ interface ProjectPageProps {
   params: { slug: string } & Record<string, string | string[]>; // ✅ FIXED
 }
 
-export default function ProjectPage({ params }: ProjectPageProps) {
+export default function ProjectPage({ params }: any) {
   const project = projects.find((p) => p.slug === params.slug);
 
   if (!project) return notFound();
